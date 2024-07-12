@@ -1,0 +1,23 @@
+.responsive-container {
+  width: 94%;
+  max-width: 996px;
+  margin: 0 auto;
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .responsive-container {
+    width: 96%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .responsive-container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-container {
+    width: 996px;
+  }
+}
